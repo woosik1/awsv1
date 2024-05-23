@@ -21,6 +21,6 @@ public class HelloController {
             log.warn("/aws/v1 이 호출되었어요. warn 로그 #####################################");
         }
         
-        return "<h1>요청한값"+number+"</h1>";
+        return "<h1>요청한값"+number+"</h1>안녕하세요";
     }
 }
